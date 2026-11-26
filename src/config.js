@@ -5,4 +5,4 @@ export const EMAIL = "elsaadymohamed2020@gmail.com";
 
 // Example link shown in the "example of my work" box.
 // Replace the url with a demo video link when you have one.
-export const EXAMPLE_URL = "https://github.com/elsaadymohamed2020/whatsapp-booking-bot";
+export const EXAMPLE_URL = "https://elsaadymohamed2020.github.io/whatsapp-booking-bot/";
