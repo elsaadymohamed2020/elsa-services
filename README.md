@@ -1,11 +1,21 @@
 # Elsa services page
 
-A one-page, Arabic-first (RTL) site with an English toggle. Plain HTML, CSS and JS. No build step.
+One-page services site, Arabic-first (RTL) with an English toggle. Built with Vite and React.
 
 ## Deploy on Vercel
-Import the repo in Vercel and deploy. Framework preset: Other. No build command, no output directory.
+Import the repo. Vercel detects Vite on its own:
+- Framework Preset: Vite
+- Build Command: `npm run build`
+- Output Directory: `dist`
+- Install Command: `npm install`
 
 ## Edit
-- Text: `index.html` (Arabic in the tag, English in the `data-en` attribute).
-- WhatsApp number: `WHATSAPP_NUMBER` at the top of `script.js`.
-- Colors: variables at the top of `style.css`.
+- WhatsApp number, email, example link: `src/config.js`
+- All text (Arabic and English): `src/content.js`
+- Colors and layout: `src/index.css`
+
+## Run locally
+```
+npm install
+npm run dev
+```
